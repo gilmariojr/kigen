@@ -1,0 +1,188 @@
+[1610637806.123][INFO]: Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 33015
+[1610637806.123][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1610637806.761][INFO]: [6c90a0694d702d1570533dd727dabfa4] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "D:\\apps\\com.automationpractice\\build\\downloads\\1610637805471_14096_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "D:\\apps\\com.automationpractice\\build\\downloads\\1610637805471_14096_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1610637806.763][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "D:\\apps\\com.automationpractice\\build\\downloads\\1610637805471_14096_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1610637806.764][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1610637806.764][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1610637806.764][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\GILMAR~1.JUN\AppData\Local\Temp\scoped_dir21972_311817483" data:,
+[1610637807.257][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1610637809.266][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1610637811.280][INFO]: [6c90a0694d702d1570533dd727dabfa4] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "87.0.4280.141",
+      "chrome": {
+         "chromedriverVersion": "87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761})",
+         "userDataDir": "C:\\Users\\GILMAR~1.JUN\\AppData\\Local\\Temp\\scoped_dir21972_311817483"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:50011"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "6c90a0694d702d1570533dd727dabfa4"
+}
+[1610637811.319][INFO]: [6c90a0694d702d1570533dd727dabfa4] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1610637811.319][INFO]: Waiting for pending navigations...
+[1610637811.321][INFO]: Done waiting for pending navigations. Status: ok
+[1610637811.427][INFO]: Waiting for pending navigations...
+[1610637811.428][INFO]: Done waiting for pending navigations. Status: ok
+[1610637811.428][INFO]: [6c90a0694d702d1570533dd727dabfa4] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1610637811.432][INFO]: [6c90a0694d702d1570533dd727dabfa4] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1610637811.432][INFO]: [6c90a0694d702d1570533dd727dabfa4] RESPONSE SetTimeouts
+[1610637811.438][INFO]: [6c90a0694d702d1570533dd727dabfa4] COMMAND Navigate {
+   "url": "http://automationpractice.com/index.php"
+}
+[1610637811.438][INFO]: Waiting for pending navigations...
+[1610637811.439][INFO]: Done waiting for pending navigations. Status: ok
+[1610637813.198][INFO]: Waiting for pending navigations...
+[1610637821.916][INFO]: Done waiting for pending navigations. Status: ok
+[1610637821.916][INFO]: [6c90a0694d702d1570533dd727dabfa4] RESPONSE Navigate
+[1610637821.979][INFO]: [6c90a0694d702d1570533dd727dabfa4] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[title=\"Blouse\"]"
+}
+[1610637821.979][INFO]: Waiting for pending navigations...
+[1610637821.979][INFO]: Done waiting for pending navigations. Status: ok
+[1610637821.986][INFO]: Waiting for pending navigations...
+[1610637821.987][INFO]: Done waiting for pending navigations. Status: ok
+[1610637821.987][INFO]: [6c90a0694d702d1570533dd727dabfa4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "ed23be1a-13b0-43a9-9626-ebfc245833ab"
+}
+[1610637821.995][INFO]: [6c90a0694d702d1570533dd727dabfa4] COMMAND Quit {
+
+}
+[1610637822.095][INFO]: [6c90a0694d702d1570533dd727dabfa4] RESPONSE Quit

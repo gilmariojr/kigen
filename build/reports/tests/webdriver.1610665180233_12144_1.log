@@ -1,0 +1,205 @@
+[1610665180.449][INFO]: Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 26689
+[1610665180.449][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1610665181.203][INFO]: [ed548db3d38f87b61fc77f89f6011e21] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "D:\\apps\\com.automationpractice\\build\\downloads\\1610665179048_12144_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "D:\\apps\\com.automationpractice\\build\\downloads\\1610665179048_12144_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1610665181.207][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "D:\\apps\\com.automationpractice\\build\\downloads\\1610665179048_12144_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1610665181.208][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1610665181.209][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1610665181.209][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\GILMAR~1.JUN\AppData\Local\Temp\scoped_dir3468_739963631" data:,
+[1610665181.843][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1610665183.850][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1610665185.861][INFO]: [ed548db3d38f87b61fc77f89f6011e21] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "87.0.4280.141",
+      "chrome": {
+         "chromedriverVersion": "87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761})",
+         "userDataDir": "C:\\Users\\GILMAR~1.JUN\\AppData\\Local\\Temp\\scoped_dir3468_739963631"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:64055"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "ed548db3d38f87b61fc77f89f6011e21"
+}
+[1610665185.908][INFO]: [ed548db3d38f87b61fc77f89f6011e21] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1610665185.908][INFO]: Waiting for pending navigations...
+[1610665185.910][INFO]: Done waiting for pending navigations. Status: ok
+[1610665186.020][INFO]: Waiting for pending navigations...
+[1610665186.020][INFO]: Done waiting for pending navigations. Status: ok
+[1610665186.020][INFO]: [ed548db3d38f87b61fc77f89f6011e21] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1610665186.026][INFO]: [ed548db3d38f87b61fc77f89f6011e21] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1610665186.026][INFO]: [ed548db3d38f87b61fc77f89f6011e21] RESPONSE SetTimeouts
+[1610665186.035][INFO]: [ed548db3d38f87b61fc77f89f6011e21] COMMAND Navigate {
+   "url": "http://automationpractice.com/"
+}
+[1610665186.035][INFO]: Waiting for pending navigations...
+[1610665186.036][INFO]: Done waiting for pending navigations. Status: ok
+[1610665187.485][INFO]: Waiting for pending navigations...
+[1610665191.080][INFO]: Done waiting for pending navigations. Status: ok
+[1610665191.080][INFO]: [ed548db3d38f87b61fc77f89f6011e21] RESPONSE Navigate
+[1610665191.087][INFO]: [ed548db3d38f87b61fc77f89f6011e21] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "document.querySelector('.cart_block.block.exclusive').setAttribute('style', 'display: block');"
+}
+[1610665191.087][INFO]: Waiting for pending navigations...
+[1610665191.091][INFO]: Done waiting for pending navigations. Status: ok
+[1610665191.096][INFO]: Waiting for pending navigations...
+[1610665191.106][INFO]: Done waiting for pending navigations. Status: ok
+[1610665191.106][INFO]: [ed548db3d38f87b61fc77f89f6011e21] RESPONSE ExecuteScript null
+[1610665191.265][INFO]: [ed548db3d38f87b61fc77f89f6011e21] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".cart_block_product_name[title=NaoExiste]"
+}
+[1610665191.291][INFO]: Waiting for pending navigations...
+[1610665191.297][INFO]: Done waiting for pending navigations. Status: ok
+[1610665191.318][INFO]: Waiting for pending navigations...
+[1610665191.319][INFO]: Done waiting for pending navigations. Status: ok
+[1610665191.319][INFO]: [ed548db3d38f87b61fc77f89f6011e21] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".cart_block_product_name[title=NaoExiste]"}
+  (Session info: chrome=87.0.4280.141)
+[1610665191.351][INFO]: [ed548db3d38f87b61fc77f89f6011e21] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "localStorage.clear();"
+}
+[1610665191.351][INFO]: Waiting for pending navigations...
+[1610665191.352][INFO]: Done waiting for pending navigations. Status: ok
+[1610665191.361][INFO]: Waiting for pending navigations...
+[1610665191.364][INFO]: Done waiting for pending navigations. Status: ok
+[1610665191.364][INFO]: [ed548db3d38f87b61fc77f89f6011e21] RESPONSE ExecuteScript null
+[1610665191.387][INFO]: [ed548db3d38f87b61fc77f89f6011e21] COMMAND Quit {
+
+}
+[1610665191.620][INFO]: [ed548db3d38f87b61fc77f89f6011e21] RESPONSE Quit

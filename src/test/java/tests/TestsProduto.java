@@ -1,38 +1,40 @@
 package tests;
 
-import com.codeborne.selenide.Configuration;
-import org.testng.annotations.BeforeMethod;
+import org.junit.Assert;
 import org.testng.annotations.Test;
-import pages.PageHeader;
 import pages.PageSearch;
+import utils.BaseTest;
 
-import static com.codeborne.selenide.Selenide.$;
+public class TestsProduto extends BaseTest {
 
-public class TestsProduto {
-    PageHeader header = new PageHeader();
     PageSearch search = new PageSearch();
 
-    @BeforeMethod
-    public void beforeTest() {
-        Configuration.browser = "chrome";
-        Configuration.baseUrl = "http://automationpractice.com";
-    }
-
     @Test
-    public void validarBusca() {
-        header
-                .open()
-                .search("Blouse");
-        $("#center_column  a.button.ajax_add_to_cart_button.btn.btn-default span").exists();
+    public void produtoNaoEncontrado() {
+        index
+                .abrir()
+                .limparCarrinho();
+        if (index.encontrarNoCarrinhoIndex("Blouse") == false) {
+            Assert.assertTrue("Produto não encontrado", true);
+        }else{
+            Assert.assertTrue("Produto encontrado incorretamente", false);
+        }
     }
 
     @Test
     public void ValidarCarrinho() {
-        header
-                .open()
-                .search("Blouse");
+        String produto = "Blouse";
+        index
+                .abrir()
+                .procurar(produto);
         search
                 .selecionarProduto()
                 .addProduto();
+
+        if (index.encontrarNoCarrinhoIndex(produto) == true) {
+            Assert.assertTrue("Produto Encontrado Correta", true);
+        }else  {
+            Assert.assertTrue("Produto não adicionado ao Carrinho", false);
+        }
     }
 }
